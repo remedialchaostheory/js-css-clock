@@ -40,12 +40,21 @@ body {
 .hand {
   width: 50%;
   height: 6px;
+  right: 50%;
   background: black;
   position: absolute;
   top: 50%;
+  border-radius: 3px;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all .04s;
   transition-timing-function: cubic-bezier(0, 3.82, 0.22, 1.82);
 }
 
+.hand.hour-hand {
+  width: 30%;
+}
+
+.hand.min-hand {
+  width: 37%;
+}
