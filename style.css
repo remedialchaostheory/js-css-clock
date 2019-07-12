@@ -45,5 +45,7 @@ body {
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
+  transition: all .07s;
+  transition-timing-function: cubic-bezier(0, 1.56, 1, 2.9);
 }
 
