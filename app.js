@@ -29,9 +29,19 @@
       allHands.forEach(hand => hand.style.transition = '');
     }
 
-
-
   }
+
+  function removeTransition(e) {
+    this.classList.remove('pulse');
+  }
+
+  function pulse() {
+    const clock = document.querySelector('.clock');
+    clock.classList.add('pulse');
+    clock.addEventListener('transitionend', removeTransition);
+  }
+
   setInterval(setDate, 1000);
+  setInterval(pulse, 1000);
 
 })();

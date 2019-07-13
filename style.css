@@ -28,6 +28,7 @@ body {
       inset 0 0 0 3px #EFEFEF,
       inset 0 0 10px black,
       0 0 10px rgba(0,0,0,0.2);
+  transition: .05s;
 }
 
 .clock-face {
@@ -57,4 +58,8 @@ body {
 
 .hand.min-hand {
   width: 37%;
+}
+
+.pulse {
+  box-shadow: 0 0 1rem;
 }
