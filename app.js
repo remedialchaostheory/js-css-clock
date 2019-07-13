@@ -4,6 +4,7 @@
   const secondHand = document.querySelector('.second-hand');
   const minHand = document.querySelector('.min-hand');
   const hourHand = document.querySelector('.hour-hand');
+  const clock = document.querySelector('.clock');
 
   function setDate() {
     const now = new Date();
@@ -36,12 +37,13 @@
   }
 
   function pulse() {
-    const clock = document.querySelector('.clock');
     clock.classList.add('pulse');
     clock.addEventListener('transitionend', removeTransition);
   }
 
-  setInterval(setDate, 1000);
-  setInterval(pulse, 1000);
+  setInterval(function () {
+    setDate();
+    pulse()
+  }, 1000);
 
 })();
