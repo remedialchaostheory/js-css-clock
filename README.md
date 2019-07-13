@@ -6,3 +6,5 @@ Clock border pulses with each second for a visceral sense of urgency.
 
 
 ![js-css-clock.gif](https://s3.gifyu.com/images/js-css-clock.gif)
+
+Background photo by [Aleksandar Pasaric](jjkhttps://www.pexels.com/@apasaric)
