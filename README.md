@@ -1,4 +1,4 @@
-#js-css-clock
+# js-css-clock
 
 Clock made with JavaScript (vanilla) and CSS. 
 
