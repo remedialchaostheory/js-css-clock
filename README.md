@@ -1,5 +1,7 @@
 # js-css-clock
 
+[Demo](https://remedialchaostheory.s3.amazonaws.com/js-css-clock/index.html)
+
 Clock made with JavaScript (vanilla) and CSS. 
 
 Clock border pulses with each second for a visceral sense of urgency.
